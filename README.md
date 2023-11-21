@@ -23,8 +23,8 @@ The key focus of this test suite is to ensure robust form handling, including va
 1. **Clone the Repository**
 
     ```bash
-    git clone <[repository-url](https://github.com/SuharshTyagii/supersourcing-assignment.git)>
-    cd <supersourcing-assignment>
+    git clone https://github.com/SuharshTyagii/supersourcing-assignment.git
+    cd supersourcing-assignment
     ```
 
 2. **Install Dependencies**
