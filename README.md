@@ -11,7 +11,6 @@ The key focus of this test suite is to ensure robust form handling, including va
 - **Form Interaction Test:** Automated testing of form fields, including text inputs, file uploads, and checkbox selections for the form: <https://bukabantuan.bukalapak.com/form/175>
 - **Form Submission Test:** Validation of form submission process, ensuring the correct handling of data and navigation upon submission.
 
-## Installation
 
 ### Prerequisites
 
@@ -24,8 +23,8 @@ The key focus of this test suite is to ensure robust form handling, including va
 1. **Clone the Repository**
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone <[repository-url](https://github.com/SuharshTyagii/supersourcing-assignment.git)>
+    cd <supersourcing-assignment>
     ```
 
 2. **Install Dependencies**
