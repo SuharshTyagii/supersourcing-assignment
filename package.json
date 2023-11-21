@@ -1,0 +1,22 @@
+{
+  "author": "Suharsh Tyagi",
+  "name": "supersourcing-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:form": "npx playwright test form.spec.js",
+    "test:example": "npx playwright test example.spec.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.3"
+  },
+  "dependencies": {
+    "chance": "^1.1.11",
+    "js-yaml": "^4.1.0",
+    "winston": "^3.11.0"
+  }
+}

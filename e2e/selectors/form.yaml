@@ -1,0 +1,38 @@
+# urls and other details
+form_url: "https://bukabantuan.bukalapak.com/form/175"
+
+# xpaths
+name_input: "id=name"
+email_input: "id=email"
+# NOTE:- Should have an unique ID
+ip_name_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[3]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+registration_num_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[4]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+owner_name_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[5]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+rights_owner_checkbox: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[6]/span/div/div/label[1]/input
+# NOTE:- Should have an unique ID
+informant_relationship_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[7]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+informant_company_name_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[8]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+informant_company_website_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[9]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+informant_company_address_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[10]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+informant_email_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[11]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+informant_phone_num_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[12]/span/div/div/div[1]/div/input
+# NOTE:- Should have an unique ID
+product_link_input: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[13]/span/div/div/div[1]/div/input
+problem_details_input: //*[@id="body"]
+form_excel_file: "id=link_barang_banyak"
+proof_of_ip_file: "id=surat_kepemilikan_merek"
+power_of_attorney_file: "id=bukti_surat_kuasa"
+direct_selling_license_file: "id=bukti_surat_izin_usaha"
+# NOTE:- Should have an unique ID
+declaration_checkbox: '//*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[20]/div[3]/label/input'
+# NOTE:- Should have an unique ID
+submit_form_button: //*[@id="app-container"]/div[1]/div[2]/div[2]/div[2]/div/div/span/form/div/div[20]/button
+# Other selectors
