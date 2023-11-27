@@ -42,6 +42,34 @@ The key focus of this test suite is to ensure robust form handling, including va
     ```
 
 ## Running the Tests
+### Using the Express API
+
+1. **Start the Express Server**
+
+    Locally:
+
+    ```bash
+    npm start
+    ```
+
+    Or using Docker:
+
+    ```bash
+    docker build -t playwright-test-assignment .
+    docker run -p 8080:8080 playwright-test-assignment
+    ```
+
+2. **Trigger the Tests**
+
+    Send a GET request to `http://13.213.51.226:8080/run-form-test` to start the tests. This will return a unique process ID.
+
+3. **Check Test Status**
+
+    Send a GET request to `http://13.213.51.226:8080/status?spawnId=<process_id>` to check the status of the test and get real-time output.
+
+4. **View Playwright Report**
+
+    Once the test is complete, access the Playwright report at `http://13.213.51.226:8080/playwright-report/index.html`.
 
 ### Locally
 
@@ -64,7 +92,7 @@ npm run test:form
 2. **Run the Container**
 
     ```bash
-    docker run -it --rm --name playwright-assignment -p 9323:9323 playwright-test-assignment
+    docker run -it --rm --name playwright-assignment -p 8080:8080 playwright-test-assignment
     ```
 
 #### Option 2: Docker Compose (requires docker-compose to be installed)

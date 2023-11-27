@@ -29,12 +29,12 @@ app.get('/run-form-test', (req, res) => {
   });
 
   runningTests[spawnId] = {
-    status: 'running',
+    status: 'running the form test',
     output: '',
     command: command
   };
 
-  res.json({ message: 'Running test', spawnId: spawnId });
+  res.json({ message: 'Running the form test', spawnId: spawnId });
 });
 
 // Endpoint to check the status of the test
