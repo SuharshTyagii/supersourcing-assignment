@@ -10,7 +10,7 @@ COPY package*.json ./
 # Install dependencies
 # Note: Playwright requires additional dependencies to run browsers
 RUN npm install
-# RUN npx playwright install
+RUN npx playwright install
 RUN npx playwright install-deps
 
 
