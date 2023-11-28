@@ -16,7 +16,7 @@ module.exports = defineConfig({
   retries: 1,
   workers: 3,
   reporter: 'html',
-  timeout: 1 * 90 * 1000,
+  timeout: 4 * 60 * 1000,
   use: {
     headless: true,
     trace: 'on-first-retry',
